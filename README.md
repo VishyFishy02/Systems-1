@@ -6,7 +6,7 @@ What I Learned
 -------------------------------------------------------------
 Problem solivng and programming with C and x86_64
 
-Resilliance. This class is notoriously one of the hardes core classes any CSE Major at OSU will have to take. Not necessarly beacuse of the content, but rather, the intricacies and room for error with low level programming. Simply put there is none.. Thinking back at the class it was a lot of late frusturating nights on discord calls with peers as we tried to figure out obscure segfaults and how to code an assembly. While I'm glad I took this class and proud I passed it, I'm happy that I wont be vising C or asm any tiem soon again!
+Resilliance. This class is notoriously one of the hardest core classes any CSE Major at OSU will have to take. Not necessarly beacuse of the content, but rather, the intricacies and room for error with low level programming. Simply put there is none.. Thinking back at the class it was a lot of late frusturating nights on discord calls with peers as we tried to figure out obscure segfaults and how to code an assembly. While I'm glad I took this class and proud I passed it, I'm happy that I wont be vising C or asm any tiem soon again!
 
 Misc. Material:
 
