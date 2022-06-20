@@ -1,0 +1,35 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO
+THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY WITH
+RESPECT TO THIS ASSIGNMENT.
+
+THIS IS THE README FILE FOR LAB 2.
+
+Student Name: Vishal Kumar
+
+2) This lab took me 12 hours to complete.
+
+3) An interesting discovoery/ problem I encountered was during my creation
+of the key, Orignially I had set the bits of the key as they came in; however,
+this created the key in reverse, so I had to figure out how to manipulate the
+index I passed in order to un-reverse during bit processing. Also, this lab took me
+way longer than I expected not really becuase of the difficulty of the problem,
+but because this is my first time with C so I basically learned as I went.
+
+4) user input for key: 1010
+value of key on iteration 0: 0x88
+value of key on iteration 1: 0x88
+value of key on iteration 2: 0xaa
+value of key on iteration 3: 0xaa
+
+I used the gdb command: disp /x key as well as a break pint right before I returned
+the value of key in setBit() to see waht my hex value for my 8 bit key was after each
+iteartion of my key processing loop in create_Key().
+
+5) I did not need to run gdb on bit_encode2 beacuse I had already figured out the trick
+for creating the key properly by then :).
+
+
+
+
+
+

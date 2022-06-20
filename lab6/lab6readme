@@ -1,0 +1,20 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I STRICTLY ADHERED TO THE
+TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY.
+THIS IS THE README FILE FOR LAB 6.
+
+1) Vishal Kumar
+
+2) This lab toko me roughly 3 hours of deep work to complete
+
+3) concerns:
+Not too bad of a lab! Got to work with assembly glad I had a tempalte to start with. I found it interesting how the C program was able to call assembly methods.
+
+4) how I used gdb to work with C program:
+I did not have to use gdb on my C program as my lab2 worked out of the box
+
+5) how I used gdb to find a bug in my assembly program:
+I did not have to use gdb on my assembly methods as well. I was about to but then made some adjustments to my create_key method and it ended up working out. My adjustments were pushing and popping the register that contained my key before calling getchar to read in the next character. To be honest I’m notsure why this worked as getchar does not take in any parameters. But I guess it was a defensive programming technique that needed to be done.
+
+6) Did I have to jump between my C and x86 program to fix any bugs?
+I had my old lab2 methods pulled up as well as the slides and I just did my best to translate that into assembly languages. Other than that I didn’t really have any bugs.
+

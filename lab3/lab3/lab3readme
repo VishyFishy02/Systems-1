@@ -1,0 +1,24 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I STRICTLY ADHERED TO THE
+TENURES OF THE OHIO STATE UNIVERSITY'S ACADEMIC INTEGRITY POLICY.
+THIS IS THE README FILE FOR LAB 3
+
+Vishal Kumar
+
+1) This lab took me about 10 hours of deep work to complete
+
+2) concerns/discussion: I think my main gripe/concerns was really the tediousness of the indivudal fucntion c files and the 
+vaguness of the task directions. the directions said that we should only three functions in our main program and gave us the
+ability to adhere to the 10 line limit by creating additonal .c programs for each new function, but never specified if the orignal
+program was only allowed to call the 3 main ones or call all of the functions. I was able to adhere to the 10 line limit with my main()
+function calling the additional functions so I chose to call all of them. Also, thank goodness for the deadline
+extension, I was juggling this lab with some of the hardest topics/problem sets that we will cover in FD2 and math 3345.
+
+3) how I used gdb to check program:
+I got quite a few segfaults throughout the entire lab, All of them had to do with memory allocation and accessing memory
+I was able to figure out when my memory allocation was going berserk by having pointers in my populating list style functions
+If I had populated the first index but gdb was showing that they first index pointer was null, then I knew somehow my memory
+was getting screwed up. So I went back through my code and found that I was initializing each title str to be an array of 61 char
+pointers instead of 61 chars themselves! Thats a lot of wasted memory. I also used gdb to figure out that I was poulating favorites
+with the wrong index, I was using the index of the title itself in the booklist instead of the index of the for loop so when I
+would later print out my favorites list, I was trying to acess null memory basically beacuse the favorite pointers were not
+consecutive. 

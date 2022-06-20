@@ -1,0 +1,80 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED
+TO THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY
+WITH RESPECT TO THIS ASSIGNMENT.
+
+THIS IS THE README FILE FOR LAB 1.
+
+Name: Vishal Kumar
+
+1.	UNIX is proprietary system (i.e. you must purchase a license) while Linux is an Open Source system.  An Open Source system, however, is not always “free”. Why?
+Open source systems may not always be free beacause companines may pay distributors for a support contract, not the software
+
+2.	Name another difference between Unix/Linux from your required reading.
+unix did not initially support BASH as the text interface, instead it used a shell called Bourne Shell.
+
+3.	What made UNIX different from all other commercially available software systems when it was initially developed?
+UNIX had code recycling features which mad it easier to adapt to a wide range of systems and hardware whereas other systsems were much more proprietary.
+
+4.	What operating system covers the widest range of hardware in the world?
+Linux
+
+5.	Why was the C programming language initially created?
+The C programming language was especially developed for creating the UNIX system.
+
+6.	What version of the mkdir command is running on stdlinux?  What mkdir option did you use to determine this?
+8.22, --version
+
+7.	What does the wc -l  instruction do?  The manual page for that instruction says prints the newline count, but what important information does that count tell you?
+the count represent how many times you pressed enter in your program to start a new line. This may be able to tell you how many lines of codes are present if formatted right.
+
+
+8.	Describe one difference between what you observed in the C programming language code in lab1.c and either Java or C++ that you have used before.  Describe one similarity.
+One difference is that in Java, there was no run command code or make file that was needed to run program, instead I just hit the green run button at the top of eclipse. One similarity was specifying types when declaring variables.
+
+9.	How is white space (tabs/newlines/returns, spaces, etc.) handled within a C program file?  Do you think this “feature” of C program files is a good thing or a bad thing?  Why?
+The compiler ignores white space. I dont think that is neither good nor bad, to me it just makes sense that it would ignore it since whitespace is just for readability for humans.
+
+10.	When a line of code is printed out after the next command in gdb, that line of code has just finished executing.  True or False?
+False, it is the line of code that will be exectuted next.
+
+11.	What is the value of getchar_return_value at GDB item #4?  Is this what you expected to see?
+49, this is not the value I orignially expected to see, instead I belive this is the ascii value of 1 instead.
+
+12.	What is the value of maxEntries variable at GDB item #5?
+15
+
+13.	What were the 15 hexadecimal values in the variable getchar_return_value as it read in each successive value from input?
+0x31 0x32 0x33 0x34 0x35 0x36 0x37 0x20 0x70 0x65 0x61 0x63 0x68 0x65 0x73
+
+14.	What is the relationship between the ASCII value of a digit and the actual value it represents?
+the ascii value is the value of the digit + 48.
+
+15.	How does the output of the program change at GDB item #7 from the output seen prior?
+The output and hex output values change becuase our input changes to 6 and banana. When seting getchar_retunr_value to 64, the b changes to an @ because we are changeing the ascii value.
+
+16.	Answer the questions asked in item #10 here.
+
+Are these values what you expected to see?  If so, why?  If not, what did you observe/learn? What value showed up between the 5 and the A?
+
+Yes for the most part the last part of my input was cut off. I believe this is because the program counted the new line character as a character so the last character from the file was not read.
+
+Do the same with the file lab1.input2. Are the values set to the values that you expected? Why or why not?
+yes these are expected likely because the new line character did not intefere with the program max number of entires allowed. 
+
+I could not bring ddd up 
+
+17.	Describe how you created the breakpoint in your program while using ddd instead of gdb.
+	If you can't bring ddd up, then just say that here.
+
+    I could not bring DDD up: Error: can't open display. I am using putty and neo vim and recieved help setting it up from GA Riley Castelli.
+
+18.	Edit the Makefile.  On the line that starts out "gcc_opt =" close to the top of the file,  put " -D DEBUG" (do not put the double quotes in the file).  Now say "touch lab1.c".  Rerun the program using 6 and banana.  Does the output change?  If so, how?
+The output does not change.?
+
+
+19.	What do you think of the make command?  [2-3 sentences]
+I think the make command is useful as it allows easy recompilation of a program. I also find the makefile to be very useful as it allows us to easily runan executible version rather  than retyping the hefty gcc command.
+
+
+
+

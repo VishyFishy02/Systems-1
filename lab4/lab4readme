@@ -1,0 +1,4 @@
+1) Vishal Kumar
+2) 15  hours
+3) this was a pretty tough lab for me I tried to stick to the 10 line limit in the beginning but lost a lot of will power towards the end.I wasn't able to finish up writing to  file but I did manage to get most of the functionality in. I was juggling this lab with midterm season for all of my classes which made harder than it should have been.
+4) I used gdb to see that I was acessing the linked list wrong in my insert method and also realized I needed to allocate memory for each of the grocery item attributes when i was reading them in from the file. I also used gdb towards the end of the lab when I was having trouble adding up each of the values in my nodes for my calcualtion methods turned out I was using = instead of var = var  + ..... so I wasn't summing properly (silly issue). The sliides for linked lists and pointers were most defienlty my friend this lab.
